@@ -1,0 +1,143 @@
+/* Global css */
+:root {
+    direction: rtl;
+    --pink: #F9EFE7;
+}
+body {
+    font-family: 'Cairo', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+}
+
+
+
+/* End - Global */
+/* open - navbar */
+nav {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav .container {
+    padding: 0px 0px;
+}
+
+.nav-item {
+    margin-top: 5px;
+    padding: 0px 5px;
+    position: relative;
+}
+
+nav .logo {
+    width: 160px;
+}
+
+.active {
+    border-radius: 5px;
+    border: 0 !important;
+    position: relative;
+    z-index: 10;
+}
+
+.active::before {
+    content: "";
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+    background: #FFE872;
+    width: 80%;
+    margin: auto;
+    height: 10px;
+    z-index: -1;
+}
+
+.nav-link {
+    border: 0 !important;
+    padding: 10px 5px;
+    margin-right: 10px;
+}
+
+/* End-navbar */
+/* Start - Section-1 */
+.sec-1 {
+    background-image: url(../images/truck3.avif);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.sec-1 .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.sec-1 .container {
+    display: flex;
+    justify-content: start;
+    align-items:center;
+}
+
+.sec-1 h1 {
+    color: #FFE872;
+}
+
+/* End - Section-1 */
+/* Start - Section-2 */
+.sec-2 {
+    position: relative;
+}
+.sec-2 .container {
+    display: flex;
+    justify-content: center;
+}
+.test {
+    margin-top: -75px;
+}
+
+/* End - Section-2 */
+/* Start - Section-3 */
+.sec-3 {
+    margin-top: 3rem;
+    position: relative;
+    height: 100vh;
+}
+.sec-3 .container {
+    display: flex;
+    justify-content: center;
+}
+
+/* End - Section-2 */
+
+/* Section-4 */
+.sec-3 {
+    margin-top: 3rem;
+    position: relative;
+    height: 100vh;
+}
+.sec-3 .container {
+    display: flex;
+    justify-content: center;
+}
+
+/* End - Section-4 */
+/* Start - Section-5 */
+
+.item{
+    background-color: #ba9c04de;
+    height: 17rem;
+}

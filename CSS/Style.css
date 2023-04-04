@@ -112,32 +112,27 @@ nav .logo {
 /* End - Section-2 */
 /* Start - Section-3 */
 .sec-3 {
-    margin-top: 3rem;
-    position: relative;
-    height: 100vh;
-}
-.sec-3 .container {
-    display: flex;
-    justify-content: center;
+    margin: 9rem 0;
 }
 
-/* End - Section-2 */
-
+/* End - Section-3 */
 /* Start - Section-4 */
-.sec-3 {
+
+
+.sec-4 {
     margin-top: 3rem;
-    position: relative;
     height: 100vh;
 }
-.sec-3 .container {
-    display: flex;
-    justify-content: center;
-}
+
 
 /* End - Section-4 */
 /* Start - Section-5 */
 
 .item{
     background-color: #ba9c04de;
-    height: 17rem;
+    height: 18rem;
 }
+
+
+/* End - Section-5 */
+/* Start - Section-6 */
